@@ -1,0 +1,56 @@
+
+/* HEADER */
+
+.headerGridContainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+    "logo nav"
+    ;
+}
+
+.logo {
+    grid-area: logo;
+}
+.imgLogo {
+    width: 150px;
+}
+nav {
+    grid-area: nav;
+}
+li {
+    list-style: none;
+}
+.d-flex {
+    display: flex;
+}
+
+/* SECTION 1 */
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "col1 col2"
+    ;
+}
+
+.col1 {
+    grid-area: col1;
+}
+
+.col2 {
+    grid-area: col2;
+}
+
+.btn1 {
+    width: 100px;
+}
+
+
+.section4Grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "col1 col2" ;
+}
