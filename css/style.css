@@ -36,6 +36,17 @@ h1 {
     color: var(--naranja);
 }
 
+.backgroundGris {
+    background-color: var(--gris);
+    color: white;
+    padding: 70px 20px;
+}
+
+.backgroundNaranja {
+    background-color: var(--naranja);
+    color: white;
+    padding: 70px 20px;
+}
 
 /* HEADER */
 
