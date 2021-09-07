@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    margin: 5% 10%;
+    margin: 0 10%;
 }
 
 .textCenter {
@@ -23,7 +23,7 @@ body {
 h1 {
     font-size: 50px;
     font-weight: bold;
-    color: var(--naranja);
+
 }
 
 .tituloSeccion1 {
