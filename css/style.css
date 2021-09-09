@@ -33,7 +33,7 @@ body {
 
  /* ENCABEZADOS */
 h1 {
-    font-size: 50px;
+    font-size: 4rem;
     font-weight: bold;
 
 }
@@ -130,6 +130,9 @@ ul {
      font-size: 28px;
  }
 
+.avaiable {
+    padding: 1rem 0;
+}
 .gridContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
