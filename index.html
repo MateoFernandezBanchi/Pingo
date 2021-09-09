@@ -21,9 +21,9 @@
     <nav>
       <ul class="d-flex ulNav">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Why us?</a></li>
-        <li><a href="#">Pingo For Business</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#whyUs">Why us?</a></li>
+        <li><a href="#pingoFor">Pingo For Business</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -45,13 +45,13 @@
   <!-- fin del Home -->
 
   <!-- inicio de la seccion 1 -->
-  <section>
+  <section class="section1">
     <h2 class="textCenter naranja">Have the best experience where you go</h2>
     <div class="gridContainer container">
       <div class="col1">
         <img src="imagenes/usuario-001.png" alt="men whith a mobile" />
       </div>
-      <div class="col2">
+      <div class="col2 whatIsPingo">
         <h3 class="naranja">What is Pingo?</h3>
         <p>
           Pingo is an app/web platform that helps you to create the best
@@ -80,14 +80,14 @@
 
   <!-- inicio de la seccion 2 -->
   <section>
-    <h3 class="textCenter naranja">Why us?</h3>
+    <h3 class="textCenter naranja paddingTop" id="whyUs">Why us?</h3>
     <p class="textCenter">Discover why we are your best tool at your trips</p>
     <div class="gridContainer container">
       <div class="col1">
         <img src="imagenes/celular-x3.png" alt="mobiles">
       </div>
       <div class="col2">
-        <h3 class="naranja">Menu</h3>
+        <h3 class="naranja paddingTop">Menu</h3>
         <p>
           See the menu,price and book or buy and get amazing discounts from your
           phone. Without scams or getting out of home,all at your fingertips.
@@ -100,23 +100,23 @@
       the best possible, that even make your trips safer
     </h3>
   </div>
-    <h3 class="textCenter naranja">Some of the benefits</h3>
-    <div class="d-flex container">
-      <article>
+    <h3 class="textCenter naranja paddingTop">Some of the benefits</h3>
+    <div class="d-flex container benefits">
+      <article class="benefitsItem">
         <img src="imagenes/search.png" alt="Icon search" />
         <p>
           Find your friends, travel buddies or people you care about easily in
           crowded places with the find feature of Pingo.
         </p>
       </article>
-      <article>
+      <article class="benefitsItem">
         <img src="imagenes/compare.png" alt="Icon text" />
         <p>
           Compare prices between thousands of products,places and services
           instantly and choose the ideal one for you.
         </p>
       </article>
-      <article>
+      <article class="benefitsItem">
         <img src="imagenes/gps.png" alt="Icon gps" />
         <p>
           Find what you are looking for, from places to eat to incredible events
@@ -130,7 +130,7 @@
       <div class="col1">
         <img src="imagenes/usuario-003.png" alt="men whith a mobile">
       </div>
-      <div class="col2">
+      <div class="col2 QR">
         <h3 class="naranja">QR Code</h3>
         <p>Scan Qr codes in your favorite places and get incredible discounts </p>
       </div>
@@ -150,19 +150,21 @@
   <!-- fin de la seccion 2 -->
 
   <!-- inicio de la seccion 3 -->
-  <section>
-    <h3 class="textCenter naranja">Pingo for business</h3>
-    <p class="textCenter">Connect your business to Pingo and increase your customers and revenue</p>
+  <section class="section3">
+    <div class="width500">
+    <h3 class="textCenter naranja" id="pingoFor">Pingo for business</h3>
+    <p class="textCenter connect">Connect your business to Pingo and increase your customers and revenue</p>
+  </div>
     <div class="d-flex container">
-      <article>
+      <article class="businessItem">
         <p>Reach more people and position your business without spending a lot of money.</p>
         <!-- rectangulo naranja -->
       </article>
-      <article>
+      <article class="businessItem">
         <p>With Pay and Pick your customers can pay from their phone and pick up your product, it's that simple.</p>
         <!-- rectangulo naranja -->
       </article>
-      <article>
+      <article class="businessItem">
         <p>Offer in-app and in discounts and to attract more people and increase your business profits. </p>
         <!-- rectangulo naranja -->
       </article>
@@ -175,21 +177,21 @@
   <!-- fin de la seccion 3 -->
 
   <!-- inicio de la seccion 4 -->
-  <section class="section4Grid container">
-    <div class="col1">
-      <h3 class="naranja">This is just the beginning, Welcome to Pingo</h3>
+  <section class="section4">
+    <div class="col1 container welcomePingo">
+      <h3 class="naranja welcomePingoH3">This is just the beginning, Welcome to Pingo</h3>
       <p>Want to get your business in the platform or invest? </p>
       <button>Contact us</button>
       <p>or send an email to sebm10fcb19310@gmail.com </p>
     </div>
-    <div class="col2">
+    <div class="col2 container">
       <img src="imagenes/usuario-004.png" alt="woman">
     </div>
   </section>
   <!-- fin de la seccion 4 -->
 
   <!-- inicio de footer -->
-  <footer class="gridContainer">
+  <footer class="gridContainer" id="contact">
     <div class="col1">
       <img src="imagenes/logo-white.png" alt="logo Pingo">
       <span>2021</span>

@@ -6,10 +6,16 @@
 :root {
     --naranja: #FF7422;
     --gris: #343C44;
+    --grisClaro: #C9C9C9;
 }
 
 body {
     font-family: 'Raleway', sans-serif;;
+}
+
+.width500 {
+    width: 500px;
+    margin: 0 auto;
 }
 
 .container {
@@ -20,12 +26,22 @@ body {
     text-align: center;
 }
 
+/* PADDING */
+.paddingTop {
+    padding: 50px 0 20px 0;
+}
+
+ /* ENCABEZADOS */
 h1 {
     font-size: 50px;
     font-weight: bold;
 
 }
 
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
 .tituloSeccion1 {
     color: var(--naranja);
 }
@@ -81,6 +97,7 @@ li {
 
 ul {
     justify-content: space-evenly;
+    margin-top: 20px;
 }
 
 .ulNav li a {
@@ -88,7 +105,14 @@ ul {
     color: black;
 }
 
+.ulNav li a:hover {
+    text-decoration: underline;
+}
+
 /* SECTION 1 */
+ .section1 h2 {
+     padding: 30px;
+ }
 
 .gridContainer {
     display: grid;
@@ -109,16 +133,80 @@ ul {
 .btn1 {
     width: 120px;
 }
+.whatIsPingo {
+    padding: 50px 10px;
+}
+
+.QR {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* SECTION 2 */
+
+.benefits {
+    justify-content: center;
+    padding: 50px 0;
+}
+.benefitsItem {
+    text-align: center;
+    width: 300px;
+    padding: 0px 10px;
+    margin: 0px 20px;
+    border-radius: 30px;
+    box-shadow: 0px 5px rgba(52, 60, 58, 0.5);
+}
+
+.benefitsItem p {
+    padding: 30px 10px;
+}
+
+/* SECTION 3 */
+
+.section3 {
+    margin-top: 100px;
+}
+
+.businessItem {
+    width: 300px;
+    padding: 30px 10px;
+    margin: 50px 20px;
+    border-radius: 30px;
+    box-shadow: 0px 5px rgba(52, 60, 58, 0.5);
+}
+
+.businessItem p {
+    padding: 10px 30px;
+}
+
+#pingoFor {
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.connect {
+    font-size: 25px;
+}
 
 /* SECTION 4 */
 
-.section4Grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-areas: 
-    "col1 col2" ;
+.section4 {
+    display: flex;
+    justify-content: center;
+       background-color: var(--grisClaro);
 }
 
+.welcomePingo {
+    width: 500px;
+    margin: 50px 30px;
+    padding: 50px 30px
+}
+
+.welcomePingoH3 {
+    font-size: 35px;
+}
 /* FOOTER */
 
 footer {
