@@ -1,234 +1,289 @@
-* { margin: 0; 
-    padding: 0; 
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --naranja: #FF7422;
-    --gris: #343C44;
-    --grisClaro: #C9C9C9;
+  --naranja: #ff7422;
+  --gris: #343c44;
+  --grisClaro: #c9c9c9;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;;
+  font-family: "Raleway", sans-serif;
 }
 
 .width500 {
-    width: 500px;
-    margin: 0 auto;
+  width: 500px;
+  margin: 0 auto;
 }
 
 .container {
-    margin: 0 10%;
+  margin: 0 10%;
 }
 
 .textCenter {
-    text-align: center;
+  text-align: center;
+}
+
+.imgCenter {
+	display: block;
+	margin: auto;
 }
 
 /* PADDING */
 .paddingTop {
-    padding: 50px 0 20px 0;
+  padding: 50px 0 20px 0;
+}
+.paddingTop10 {
+  padding-top: 10px;
 }
 
- /* ENCABEZADOS */
+.padd {
+	padding-left: 10px;
+}
+
+/* ENCABEZADOS */
 h1 {
-    font-size: 4rem;
-    font-weight: bold;
-
+  font-size: 4rem;
+  font-weight: bold;
 }
 
-h3{
-    font-size: 30px;
-    font-weight: bold;
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+	padding-bottom: 30px;
+
 }
 .tituloSeccion1 {
-    color: var(--naranja);
+  color: var(--naranja);
 }
 
 /* COLORES */
 
 .naranja {
-    color: var(--naranja);
+  color: var(--naranja);
 }
 
 .backgroundGris {
-    background-color: var(--gris);
-    color: white;
-    padding: 70px 20px;
+  background-color: var(--gris);
+  color: white;
+  padding: 70px 20px;
 }
 
 .backgroundNaranja {
-    background-color: var(--naranja);
-    color: white;
+  background-color: var(--naranja);
+  color: white;
 }
 
 /* HEADER */
 
 header {
-    background-color: white;
+  background-color: white;
+	height: 100px;
+	align-items: center;
+  position:sticky;
+  top: 0;
+	box-shadow: rgba(37, 31, 26, 0.8) 0px 10px 10px -10px;
 }
 
 .headerGridContainer {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-areas: 
-    "logo nav"
-    ;
-
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas: "logo nav";
 }
 
 .logo {
-    grid-area: logo;
+  grid-area: logo;
 }
 .imgLogo {
-    width: 150px;
+  width: 250px;
+	padding-left: 35px;
 }
 nav {
-    grid-area: nav;
+  grid-area: nav;
 }
 li {
-    list-style: none;
+  list-style: none;
 }
 
 /* FLEXBOX */
 
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 .d-flexColumn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 ul {
-    justify-content: space-evenly;
-    margin-top: 20px;
+  justify-content: space-evenly;
 }
 
 .ulNav li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .ulNav li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* SECTION 1 */
 .h2Experience {
-    margin: 0 auto;
-    width: 500px;
-
+  margin: 0 auto;
+  width: 500px;
 }
- .section1 h2 {
-    
-     
-     padding: 80px 30px;
-     font-size: 28px;
- }
+.section1 h2 {
+  padding: 50px 30px;
+  font-size: 28px;
+}
 
 .avaiable {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 .gridContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "col1 col2"
-    ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "col1 col2";
 }
 
 .col1 {
-    grid-area: col1;
+  grid-area: col1;
 }
 
 .col2 {
-    grid-area: col2;
+  grid-area: col2;
 }
 
 .btn1 {
-    width: 120px;
+  width: 120px;
 }
 .whatIsPingo {
-    padding: 50px 10px;
+  padding: 50px 10px;
 }
 
 .QR {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* SECTION 2 */
 
 .benefits {
-    justify-content: center;
-    padding: 50px 0;
+  justify-content: space-between;
+  padding: 50px 0;
 }
 .benefitsItem {
-    text-align: center;
-    width: 300px;
-    padding: 0px 10px;
-    margin: 0px 20px;
-    border-radius: 30px;
-    box-shadow: 0px 5px rgba(52, 60, 58, 0.5);
+  width: 230px;
+  border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.09) 0px 5px 5px, 
+							rgba(0, 0, 0, 0.09) 0px 16px 16px;
+}
+
+.iconCenter {
+	display: block;
+	margin: auto;
+	position: relative;
+	top: -20px;
+	z-index: -1;
 }
 
 .benefitsItem p {
-    padding: 30px 10px;
+  padding: 0px 10px 20px 20px;
 }
 
 /* SECTION 3 */
 
 .section3 {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .businessItem {
-    width: 300px;
-    padding: 30px 10px;
-    margin: 50px 20px;
-    border-radius: 30px;
-    box-shadow: 0px 5px rgba(52, 60, 58, 0.5);
+  width: 300px;
+  padding: 30px 10px;
+  margin: 50px 20px;
+  border-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.09) 0px 5px 5px, 
+							rgba(0, 0, 0, 0.09) 0px 16px 16px;
 }
 
 .businessItem p {
-    padding: 10px 30px;
+  padding: 10px 30px;
 }
 
 #pingoFor {
-    font-size: 35px;
-    font-weight: bolder;
-    padding-bottom: 20px;
+  font-size: 35px;
+  font-weight: bolder;
+  padding-bottom: 20px;
 }
 
 .connect {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /* SECTION 4 */
 
 .section4 {
-    display: flex;
-    justify-content: center;
-       background-color: var(--grisClaro);
+  display: flex;
+  justify-content: center;
+  background-color: var(--grisClaro);
 }
 
 .welcomePingo {
-    width: 500px;
-    margin: 50px 30px;
-    padding: 50px 30px
+  width: 500px;
+  margin: 50px 30px;
+  padding: 0px 30px;
 }
 
 .welcomePingoH3 {
-    font-size: 35px;
+  font-size: 35px;
+}
+
+.rectNaranja {
+	height: 5px;
+	width: 30px;
+	margin-left:30px;
+	background-color: var(--naranja);
+}
+
+button {
+	background-color: var(--naranja);
+	padding: 10px 60px;
+	margin: 10px 0px;
+	border-radius: 40px;
+	font-size: 25px;
+	color: white;
+	border-style: none;
+
 }
 /* FOOTER */
 
 footer {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
+}
+
+#logoFoot {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.sizeSpan {
+	font-size: 13px;
+	padding-left: 5px;
+}
+
+#contact {
+	padding: 20px;
+}
+
+.footerContact {
+	display: flex;
+	margin-top: 10px;
 }
