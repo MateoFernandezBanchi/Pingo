@@ -12,6 +12,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  width: 100vw;
 }
 
 .width500 {
@@ -324,13 +325,15 @@ button {
   margin: 0 5%;
 }
 body .backgroundNaranja .textCenter .h4Gris {
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
 }
  li {
    padding: 0 10px;
    text-align: center;
  }
-
+.width500 {
+  width: 100%;
+}
 
 }
