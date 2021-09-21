@@ -375,8 +375,6 @@ body .backgroundNaranja .textCenter .h4Gris {
 .welcomePingo {
   width: 100%;
 }
-}
-
 .d-flexResponsive {
   display: flex;
 }
@@ -401,3 +399,6 @@ li {
 ul {
   padding: 2px 0;
 }
+
+}
+
