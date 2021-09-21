@@ -276,21 +276,26 @@ ul {
 	margin-left:30px;
 	background-color: var(--naranja);
 }
+
 .rectNaranja2 {
 	height: 5px;
 	width: 30px;
 	background-color: var(--naranja);
 }
-button {
+
+.button {
+  display: block;
+  width: 250px;
 	background-color: var(--naranja);
-	padding: 10px 60px;
+	padding: 20px 60px;
 	margin: 10px 0px;
 	border-radius: 40px;
 	font-size: 25px;
 	color: white;
 	border-style: none;
-
+  text-decoration: none;
 }
+
 /* FOOTER */
 
 .footer {
