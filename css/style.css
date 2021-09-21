@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 :root {
@@ -388,4 +389,16 @@ body .backgroundNaranja .textCenter .h4Gris {
 
 .welcomePingoH3 {
   padding: 20px 0;
+}
+
+.imgLogo {
+  width: 200px;
+}
+
+li {
+  padding: 3px 0;
+}
+
+ul {
+  padding: 2px 0;
 }
