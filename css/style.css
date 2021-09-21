@@ -341,4 +341,51 @@ body .backgroundNaranja .textCenter .h4Gris {
   width: 100%;
 }
 
+.gridContainer {
+  display: block;
+}
+.headerGridContainer{
+  display: block;
+}
+
+.width500 {
+  width: 100%;
+}
+
+.h2Experience {
+  width: 100%;
+}
+
+#wherever {
+  width: 100%;
+}
+
+.imgCenter {
+  width: 80%;
+}
+
+.d-flex {
+  display: block;
+}
+
+.section4 {
+  display: block;
+}
+
+.welcomePingo {
+  width: 100%;
+}
+}
+
+.d-flexResponsive {
+  display: flex;
+}
+
+.benefitsItem {
+ margin: 0 auto;
+ margin-top: 35px;
+}
+
+.welcomePingoH3 {
+  padding: 20px 0;
 }
