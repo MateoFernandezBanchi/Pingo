@@ -338,11 +338,9 @@ ul {
 
 /* MOBILE */
 
-<<<<<<< HEAD
 .pMenu {
   padding-bottom: 20px;
 }
-=======
 @media only screen and (max-width: 767px) {
   .container {
     margin: 0 5%;
@@ -419,5 +417,4 @@ ul {
   ul {
     padding: 2px 0;
   }
->>>>>>> 7a1210ea8b10d064d1109c280cfcad270dd12489
 }
