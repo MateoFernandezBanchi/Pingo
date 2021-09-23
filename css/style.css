@@ -29,8 +29,8 @@ body {
 }
 
 .imgCenter {
-	display: block;
-	margin: auto;
+  display: block;
+  margin: auto;
 }
 
 /* PADDING */
@@ -46,7 +46,7 @@ body {
 }
 
 .padd {
-	padding-left: 10px;
+  padding-left: 10px;
 }
 
 .marginTop {
@@ -66,8 +66,7 @@ h1 {
 h3 {
   font-size: 30px;
   font-weight: bold;
-	padding-bottom: 30px;
-
+  padding-bottom: 30px;
 }
 .tituloSeccion1 {
   color: var(--naranja);
@@ -82,7 +81,6 @@ h3 {
   width: 500px;
   margin: 0 auto;
 }
-
 
 /* COLORES */
 
@@ -105,11 +103,11 @@ h3 {
 
 header {
   background-color: white;
-	height: 100px;
-	align-items: center;
-  position:sticky;
+  height: 100px;
+  align-items: center;
+  position: sticky;
   top: 0;
-	box-shadow: rgba(37, 31, 26, 0.8) 0px 10px 10px -10px;
+  box-shadow: rgba(37, 31, 26, 0.8) 0px 10px 10px -10px;
 }
 
 .headerGridContainer {
@@ -123,7 +121,7 @@ header {
 }
 .imgLogo {
   width: 250px;
-	padding-left: 35px;
+  padding-left: 35px;
 }
 nav {
   grid-area: nav;
@@ -167,7 +165,7 @@ ul {
   font-size: 28px;
 }
 
-.avaiable {
+.available {
   padding: 1rem 0;
 }
 .gridContainer {
@@ -207,16 +205,15 @@ ul {
 .benefitsItem {
   width: 230px;
   border-radius: 20px;
-	box-shadow: rgba(0, 0, 0, 0.09) 0px 5px 5px, 
-							rgba(0, 0, 0, 0.09) 0px 16px 16px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 5px 5px, rgba(0, 0, 0, 0.09) 0px 16px 16px;
 }
 
 .iconCenter {
-	display: block;
-	margin: auto;
-	position: relative;
-	top: -20px;
-	z-index: -1;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -20px;
+  z-index: -1;
 }
 
 .benefitsItem p {
@@ -234,8 +231,7 @@ ul {
   padding: 30px 10px;
   margin: 50px 20px;
   border-radius: 20px;
-	box-shadow: rgba(0, 0, 0, 0.09) 0px 5px 5px, 
-							rgba(0, 0, 0, 0.09) 0px 16px 16px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 5px 5px, rgba(0, 0, 0, 0.09) 0px 16px 16px;
 }
 
 .businessItem p {
@@ -264,6 +260,7 @@ ul {
   width: 500px;
   margin: 50px 30px;
   padding: 0px 30px;
+  align-self: center;
 }
 
 .welcomePingoH3 {
@@ -271,29 +268,34 @@ ul {
 }
 
 .rectNaranja {
-	height: 5px;
-	width: 30px;
-	margin-left:30px;
-	background-color: var(--naranja);
+  height: 5px;
+  width: 30px;
+  margin-left: 30px;
+  background-color: var(--naranja);
 }
 
 .rectNaranja2 {
-	height: 5px;
-	width: 30px;
-	background-color: var(--naranja);
+  height: 5px;
+  width: 30px;
+  background-color: var(--naranja);
 }
 
 .button {
   display: block;
   width: 250px;
-	background-color: var(--naranja);
-	padding: 20px 60px;
-	margin: 10px 0px;
-	border-radius: 40px;
-	font-size: 25px;
-	color: white;
-	border-style: none;
+  background-color: var(--naranja);
+  padding: 20px 60px;
+  margin: 10px 0px;
+  border-radius: 40px;
+  font-size: 25px;
+  color: white;
+  border-style: none;
   text-decoration: none;
+}
+
+.button:hover {
+  background-color: rgb(246, 243, 241);
+  color: var(--naranja);
 }
 
 /* FOOTER */
@@ -305,103 +307,117 @@ ul {
 }
 
 #logoFoot {
-	display: block;
-	margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 .sizeSpan {
-	font-size: 13px;
-	padding-left: 5px;
+  font-size: 13px;
+  padding-left: 5px;
 }
 
 #contact {
-	padding: 20px;
+  padding: 20px;
 }
 
 .footerContact {
-	display: flex;
-	margin-top: 10px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.dev {
+  font-size: 10px;
+  color: var(--grisClaro);
+  text-decoration: none;
+  justify-content: end;
+}
+
+.dev:hover {
+  color: var(--naranja);
 }
 
 /* MOBILE */
 
-@media only screen and (max-width: 767px) {
-.container {
-  margin: 0 5%;
-}
-body .backgroundNaranja .textCenter .h4Gris {
-  width: 100vw;
-  overflow: hidden;
-}
- li {
-   padding: 0 10px;
-   text-align: center;
- }
-.width500 {
-  width: 100%;
-}
-
-.gridContainer {
-  display: block;
-}
-.headerGridContainer{
-  display: block;
-}
-
-.width500 {
-  width: 100%;
-}
-
-.h2Experience {
-  width: 100%;
-}
-
-#wherever {
-  width: 100%;
-}
-
-.imgCenter {
-  width: 80%;
-}
-
-.d-flex {
-  display: block;
-}
-
-.section4 {
-  display: block;
-}
-
-.welcomePingo {
-  width: 100%;
-}
-.d-flexResponsive {
-  display: flex;
-}
-
-.benefitsItem {
- margin: 0 auto;
- margin-top: 35px;
-}
-
-.welcomePingoH3 {
-  padding: 20px 0;
-}
-
-.imgLogo {
-  width: 200px;
-}
-
-li {
-  padding: 3px 0;
-}
-
-ul {
-  padding: 2px 0;
-}
-
+<<<<<<< HEAD
 .pMenu {
   padding-bottom: 20px;
 }
-}
+=======
+@media only screen and (max-width: 767px) {
+  .container {
+    margin: 0 5%;
+  }
+  body .backgroundNaranja .textCenter .h4Gris {
+    width: 100vw;
+    overflow: hidden;
+  }
 
+  li {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .width500 {
+    width: 100%;
+  }
+
+  .gridContainer {
+    display: block;
+  }
+  .headerGridContainer {
+    display: block;
+  }
+
+  .width500 {
+    width: 100%;
+  }
+
+  .h2Experience {
+    width: 100%;
+  }
+
+  #wherever {
+    width: 100%;
+  }
+
+  .imgCenter {
+    width: 80%;
+  }
+
+  .d-flex {
+    display: block;
+  }
+
+  .section4 {
+    display: block;
+  }
+
+  .welcomePingo {
+    width: 100%;
+  }
+
+  .d-flexResponsive {
+    display: flex;
+  }
+
+  .benefitsItem {
+    margin: 0 auto;
+    margin-top: 35px;
+  }
+
+  .welcomePingoH3 {
+    padding: 20px 0;
+  }
+
+  .imgLogo {
+    width: 200px;
+  }
+
+  li {
+    padding: 3px 0;
+  }
+
+  ul {
+    padding: 2px 0;
+  }
+>>>>>>> 7a1210ea8b10d064d1109c280cfcad270dd12489
+}
