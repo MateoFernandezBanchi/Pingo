@@ -153,6 +153,7 @@ ul {
 
 .ulNav li a:hover {
   text-decoration: underline;
+  color: var(--naranja);
 }
 
 /* SECTION 1 */
@@ -160,6 +161,7 @@ ul {
   margin: 0 auto;
   width: 500px;
 }
+
 .section1 h2 {
   padding: 50px 30px;
   font-size: 28px;
@@ -168,6 +170,7 @@ ul {
 .available {
   padding: 1rem 0;
 }
+
 .gridContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -304,6 +307,7 @@ ul {
   background-color: black;
   color: white;
   margin-bottom: 0;
+  padding: 30px;
 }
 
 #logoFoot {
@@ -317,12 +321,16 @@ ul {
 }
 
 #contact {
-  padding: 20px;
+  padding: 40px;
 }
 
 .footerContact {
   display: flex;
   margin-top: 10px;
+}
+
+.footerContact > img {
+  width: 25px;
 }
 
 .dev {
@@ -341,6 +349,7 @@ ul {
 .pMenu {
   padding-bottom: 20px;
 }
+
 @media only screen and (max-width: 767px) {
   .container {
     margin: 0 5%;
