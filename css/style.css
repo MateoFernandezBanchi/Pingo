@@ -343,6 +343,10 @@ ul {
 .dev:hover {
   color: var(--naranja);
 }
+ 
+.col1Footer {
+  margin-left: 110px;
+} 
 
 /* MOBILE */
 
@@ -426,4 +430,8 @@ ul {
   ul {
     padding: 2px 0;
   }
+  .col1Footer {
+    margin-left: 0px;
+  } 
+
 }
