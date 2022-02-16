@@ -1,6 +1,6 @@
 Hello this page was designed by:
 
-Paz (completar datos) Figma.
+Paz - Figma.
 
 developers:
 
